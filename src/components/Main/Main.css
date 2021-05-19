@@ -4,7 +4,7 @@
     background-image: url(../../images/landscape.png);
     background-color: #1E5581;
     background-size: contain;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -13,19 +13,65 @@
     display: none;
 }
 
-.link {
+.mountain-link {
+    width: 250px;
+    height: 180px;
     position: absolute;
-    left: 437px;
-    top: 236px;
-    width: 248px;
-    height: 192px;
-    background-image: url(../../images/kukivumchor.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    transition: all .3s ease;
 }
 
-.link:hover {
-    border-radius: 10px;
-    border: 1px solid red;
+.mountain-link:hover {
+    opacity: .7;
+    transition: all .3s ease;
+}
+
+.first {
+    left: 1007px;
+    top: 25px;
+    background-image: url(../../images/lyavochor.png);
+}
+
+.second {
+    left: 794px;
+    top: 295px;
+    background-image: url(../../images/kukivumchor.png);
+}
+
+.third {
+    left: 437px;
+    top: 225px;
+    background-image: url(../../images/chasnachor.png);
+}
+
+.fourth {
+    left: 283px;
+    top: 398px;
+    background-image: url(../../images/fersmana.png);
+}
+
+.fifth {
+    left: 544px;
+    top: 350px;
+    background-image: url(../../images/udimvuchor.png);
+}
+
+.sixth {
+    left: 636px;
+    top: 500px;
+    background-image: url(../../images/tahtarvumchor.png);
+}
+
+.seventh {
+    left: 550px;
+    top: 700px;
+    background-image: url(../../images/vudjavrchor.png);
+}
+
+.eighth {
+    left: 900px;
+    top: 730px;
+    background-image: url(../../images/aykuayvenchor.png);
 }
