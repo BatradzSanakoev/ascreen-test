@@ -2,7 +2,7 @@
   "name": "ascreen-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://batradzsanakoev.github.io/ascreen-test",
+  "homepage": "http://batradzsanakoev.github.io/ascreen-test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
