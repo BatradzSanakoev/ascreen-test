@@ -1,12 +1,14 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import { Route, Link, useLocation } from 'react-router-dom';
+import { Route, Link, useLocation, Switch } from 'react-router-dom';
+import DataContext from '../../context/DataContext';
 
-import mountains from '../../utils/data';
+// import mountains from '../../utils/data';
 import MountainPage from '../MountainPage/MountainPage'
 
 export default function Main() {
     const location = useLocation();
+    const mountains = React.useContext(DataContext);
 
     return (
         <>
